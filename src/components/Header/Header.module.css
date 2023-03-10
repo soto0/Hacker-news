@@ -1,0 +1,8 @@
+.logo_link {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}

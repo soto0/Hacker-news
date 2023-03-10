@@ -1,0 +1,63 @@
+.new {
+    padding: 20px;
+    color: rgb(32, 32, 32);
+    border-radius: 20px;
+    border: solid 1px rgb(201, 199, 199);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #f3f3f3;
+    transition: all 0.5s;
+}
+
+.new p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.new:hover {
+    color: white;
+    background-color: rgb(134 139 179);
+}
+
+.new:active {
+    color: white;
+    background-color: rgb(134 139 179);
+}
+
+.new__down {
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.new__right {
+    min-width: 110px;
+    margin-left: auto;
+}
+
+.new .date {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .new__right {
+        min-width: 85px;
+    }
+    .new h2 {
+        font-size: 20px;
+    }
+    .new .date {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .new {
+        flex-direction: column;
+    }
+    .new h2 {
+        font-size: 18px;
+    }
+}
